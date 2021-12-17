@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: dimgray;
+    font: 16px Arial, sans-serif;
+}
+
+.calendar {
+    display: block;
+    margin: 50px auto;
+    width: 350px;
+    background: lightblue;
+}
+
+.calendar input {
+    display: none;
+}
+
+.calendar__header {
+    display: block;
+    color: #ffffff;
+    padding-top: 20px;
+    text-transform: capitalize;
+    background: lightseagreen;
+}
+
+.calendar__month-name {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+.calendar__week {
+    display: flex;
+    height: 50px;
+}
+.calendar__week p{
+    padding: 10px;
+    width: 45px;
+    text-align: center;
+}
+
+.calendar__days {
+    display: flex;
+    align-items: center;
+}
+
+.calendar__days label {
+    padding: 10px;
+    width: 45px;
+    text-align: center;
+}
+
+.calendar__days-week:hover {
+    color: white;
+    background: #604dd7;
+}
+
+input[type="radio"]:checked{
+    color: white;
+    background: #27279a;
+}
+
+ .calendar__spessial-day {
+    background: #d01d53;
+     color: white;
+    cursor: pointer;
+}
+
+.another-month {
+    background: #eceded;
+    color: #787979;
+    cursor: none;
+}
