@@ -1,0 +1,86 @@
+$main: #ffffff;
+$back1: #8c7dec;
+$back2: #3b2d97;
+$back3: #0a0a93;
+$back4: #e585a2;
+$back5: #eceded;
+$another: #787979;
+
+html {
+  font: 16px Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color: dimgray;
+}
+.calendar {
+  display: block;
+  margin: 50px auto;
+  width: 315px;
+  background: lightblue;
+  &__header {
+    display: block;
+    color: $main;
+    padding-top: 20px;
+    text-transform: capitalize;
+    background: lightseagreen;
+  }
+  &__month-name {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+  }
+  &__day-week {
+    display: flex;
+    height: 50px;
+    &--name {
+      padding: 10px;
+      width: 45px;
+      text-align: center;
+    }
+  }
+  &__week {
+    display: flex;
+    align-items: center;
+    label {
+      padding: 10px;
+      width: 45px;
+      text-align: center;
+    }
+    &--weekday:not(.another-month):hover {
+      color: $main;
+      background-color: $back1;
+      cursor: pointer;
+    }
+    &--weekend:not(.another-month):hover {
+      color: $main;
+      background-color: $back2;
+      cursor: pointer;
+    }
+    &--weekday:not(.another-month):focus {
+      background-color: $back3;
+      color: white;
+    }
+    &--weekend:not(.another-month):focus {
+      background-color: $back3;
+      color: white;
+    }
+  }
+  &__holiday {
+    background-color: $back4;
+    color: white;
+    cursor: pointer;
+  }
+}
+input {
+  display: none;
+}
+.another-month {
+  background: $back5;
+  color: $another;
+  cursor: no-drop;
+}
