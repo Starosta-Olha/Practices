@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1e08f946-5607-49dc-aa9a-d379d86171a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/.idea/Practice3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/Practice3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3practice htmlJs/Practice3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-Practice/__tests__/getMethodBind.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-Practice/__tests__/getMethodBind.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/02-Practice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22hpodHtGEjlLkz2eZNcDC4aUFV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +45,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="getMethodBind.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" working-dir="$PROJECT_DIR$/06-Practice/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.getMethodBind.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,10 +66,40 @@
       <option name="presentableId" value="Default" />
       <updated>1640299848246</updated>
       <workItem from="1640299849395" duration="28000" />
+      <workItem from="1641283977526" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="757" height="200" key="GridCell.Tab.0.bottom" timestamp="1641284969087">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="757" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
+    <state width="757" height="200" key="GridCell.Tab.0.center" timestamp="1641284969087">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="757" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
+    <state width="757" height="200" key="GridCell.Tab.0.left" timestamp="1641284969087">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="757" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
+    <state width="757" height="200" key="GridCell.Tab.0.right" timestamp="1641284969087">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="757" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
   </component>
 </project>
