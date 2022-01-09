@@ -21,13 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1e08f946-5607-49dc-aa9a-d379d86171a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Practice/__tests__/getMethodBind.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-Practice/__tests__/getMethodBind.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Practice/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-Practice/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +50,75 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration name="getMethodBind.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06-Practice/src/getMethodBind.js" working-dir="$PROJECT_DIR$/06-Practice/src">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevEducation\Practices\04-Practice\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.app.test.js">
+    <configuration name="app.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getNewArrays" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <test-names>
+        <test-name value="getNewArrays" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isEqual" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <test-names>
+        <test-name value="isEqual" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isEqual.Input obg2 is not object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <test-names>
+        <test-name value="isEqual" />
+        <test-name value="Input obg2 is not object" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04-Practice/src/app.js" working-dir="$PROJECT_DIR$/04-Practice/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.getMethodBind.js" />
+        <item itemvalue="Jest.app.test.js" />
+        <item itemvalue="Jest.isEqual.Input obg2 is not object" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Jest.isEqual" />
+        <item itemvalue="Jest.getNewArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -67,6 +134,7 @@
       <updated>1640299848246</updated>
       <workItem from="1640299849395" duration="28000" />
       <workItem from="1641283977526" duration="986000" />
+      <workItem from="1641744556302" duration="8157000" />
     </task>
     <servers />
   </component>
@@ -83,23 +151,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="757" height="200" key="GridCell.Tab.0.bottom" timestamp="1641284969087">
+    <state width="1515" height="199" key="GridCell.Tab.0.bottom" timestamp="1641756218966">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="757" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
-    <state width="757" height="200" key="GridCell.Tab.0.center" timestamp="1641284969087">
+    <state width="1515" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
+    <state width="1515" height="199" key="GridCell.Tab.0.center" timestamp="1641756218966">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="757" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
-    <state width="757" height="200" key="GridCell.Tab.0.left" timestamp="1641284969087">
+    <state width="1515" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
+    <state width="1515" height="199" key="GridCell.Tab.0.left" timestamp="1641756218966">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="757" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
-    <state width="757" height="200" key="GridCell.Tab.0.right" timestamp="1641284969087">
+    <state width="1515" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
+    <state width="1515" height="199" key="GridCell.Tab.0.right" timestamp="1641756218966">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="757" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1641284969087" />
+    <state width="1515" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
   </component>
 </project>
