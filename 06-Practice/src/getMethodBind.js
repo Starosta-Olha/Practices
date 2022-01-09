@@ -5,7 +5,8 @@ const person = {
 }
 
 function info() {
-   console.log(`Имя: ${this.name}`) ;
+
+   return `Имя: ${this.name}`;
 }
 
 function getMethodBind(fn, context) {
@@ -14,6 +15,8 @@ function getMethodBind(fn, context) {
     }
 }
 
-getMethodBind(info, person)()
 
-module.exports = {getMethodBind};
+console.log(getMethodBind(info, person)());
+
+
+module.exports = { getMethodBind };
