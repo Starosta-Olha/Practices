@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e08f946-5607-49dc-aa9a-d379d86171a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-Practice/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-Practice/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,70 +54,72 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevEducation\Practices\07-Practice\src" />
       <recent name="D:\DevEducation\Practices\04-Practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.app.test.js">
-    <configuration name="app.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getNewArrays" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.validator.test.js">
+    <configuration name="isDate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
       <test-names>
-        <test-name value="getNewArrays" />
+        <test-name value="isDate" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="isEqual" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
-      <test-names>
-        <test-name value="isEqual" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="isEqual.Input obg2 is not object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="isPhone.domain is valid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/04-Practice/__tests__/app.test.js" />
+      <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
       <test-names>
-        <test-name value="isEqual" />
-        <test-name value="Input obg2 is not object" />
+        <test-name value="isPhone" />
+        <test-name value="domain is valid" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04-Practice/src/app.js" working-dir="$PROJECT_DIR$/04-Practice/src">
+    <configuration name="isPhone.invalid input data" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
+      <test-names>
+        <test-name value="isPhone" />
+        <test-name value="invalid input data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validator.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="validator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07-Practice/src/validator.js" working-dir="$PROJECT_DIR$/07-Practice/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.app.test.js" />
-        <item itemvalue="Jest.isEqual.Input obg2 is not object" />
-        <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Jest.isEqual" />
-        <item itemvalue="Jest.getNewArrays" />
+        <item itemvalue="Jest.validator.test.js" />
+        <item itemvalue="Jest.isPhone.domain is valid" />
+        <item itemvalue="Node.js.validator.js" />
+        <item itemvalue="Jest.isPhone.invalid input data" />
+        <item itemvalue="Jest.isDate" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +136,9 @@
       <workItem from="1640299849395" duration="28000" />
       <workItem from="1641283977526" duration="986000" />
       <workItem from="1641744556302" duration="8157000" />
+      <workItem from="1641758470460" duration="16000" />
+      <workItem from="1641893742644" duration="12404000" />
+      <workItem from="1641910719440" duration="10013000" />
     </task>
     <servers />
   </component>
@@ -154,21 +158,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="199" key="GridCell.Tab.0.bottom" timestamp="1641756218966">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1641758484265">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
-    <state width="1515" height="199" key="GridCell.Tab.0.center" timestamp="1641756218966">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1641758484265" />
+    <state width="1515" height="219" key="GridCell.Tab.0.bottom" timestamp="1641923225183">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
-    <state width="1515" height="199" key="GridCell.Tab.0.left" timestamp="1641756218966">
+    <state width="1515" height="219" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1641923225183" />
+    <state width="1515" height="219" key="GridCell.Tab.0.center" timestamp="1641923225183">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
-    <state width="1515" height="199" key="GridCell.Tab.0.right" timestamp="1641756218966">
+    <state width="1515" height="219" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1641923225183" />
+    <state width="1515" height="219" key="GridCell.Tab.0.left" timestamp="1641923225183">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1641756218966" />
+    <state width="1515" height="219" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1641923225183" />
+    <state width="1515" height="219" key="GridCell.Tab.0.right" timestamp="1641923225183">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="219" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1641923225183" />
   </component>
 </project>
