@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e08f946-5607-49dc-aa9a-d379d86171a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/07-Practice/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Practice/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-Practice/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Practice/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/06-Practice/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Practice/.idea/07-Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Practice_Morse/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/08_Practice_Morse/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Practice_Morse/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Practice_Morse/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/08_Practice_Morse/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/07-Practice/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,35 +61,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Education" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/08_Practice_Morse/node_modules/jest" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="D:\DevEducation\Practices\08_Practice_Morze\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\DevEducation\Practices\08_Practice_Morse\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DevEducation\Practices\08_Practice_Morze\src\ts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevEducation\Practices\07-Practice" />
       <recent name="D:\DevEducation\Practices\07-Practice\src" />
       <recent name="D:\DevEducation\Practices\04-Practice\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevEducation\Practices\08_Practice_Morze\src\ts" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="isPhone.domain is valid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.morse.js">
+    <configuration name="morse.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
+      <jest-package value="$PROJECT_DIR$/08_Practice_Morse/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/08_Practice_Morse" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
-      <test-names>
-        <test-name value="isPhone" />
-        <test-name value="domain is valid" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/08_Practice_Morse/build/__tests__/morse.js" />
       <method v="2" />
     </configuration>
     <configuration name="validator.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -91,9 +99,6 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/07-Practice/__tests__/validator.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="validator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07-Practice/src/validator.js" working-dir="$PROJECT_DIR$/07-Practice/src">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -116,13 +121,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/07-Practice/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.morse.js" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.validator.test.js" />
-        <item itemvalue="Jest.isPhone.domain is valid" />
-        <item itemvalue="Node.js.validator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +162,7 @@
       <workItem from="1643119918482" duration="647000" />
       <workItem from="1643120626000" duration="888000" />
       <workItem from="1643158470014" duration="280000" />
+      <workItem from="1643185510907" duration="1821000" />
     </task>
     <servers />
   </component>
@@ -170,22 +186,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1643120672201" />
-    <state width="1515" height="216" key="GridCell.Tab.0.bottom" timestamp="1643158666567">
+    <state width="1515" height="232" key="GridCell.Tab.0.bottom" timestamp="1643188302186">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1643158666567" />
-    <state width="1515" height="216" key="GridCell.Tab.0.center" timestamp="1643158666567">
+    <state width="1515" height="232" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1643188302186" />
+    <state width="1515" height="232" key="GridCell.Tab.0.center" timestamp="1643188302186">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1643158666567" />
-    <state width="1515" height="216" key="GridCell.Tab.0.left" timestamp="1643158666567">
+    <state width="1515" height="232" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1643188302186" />
+    <state width="1515" height="232" key="GridCell.Tab.0.left" timestamp="1643188302186">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1643158666567" />
-    <state width="1515" height="216" key="GridCell.Tab.0.right" timestamp="1643158666567">
+    <state width="1515" height="232" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1643188302186" />
+    <state width="1515" height="232" key="GridCell.Tab.0.right" timestamp="1643188302186">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1643158666567" />
+    <state width="1515" height="232" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1643188302186" />
     <state x="277" y="53" key="SettingsEditor" timestamp="1643115950737">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
